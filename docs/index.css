@@ -1,5 +1,5 @@
 body{
-    background-image: url('../bg-intro-desktop.png');
+    background-image: url('./bg-intro-desktop.png');
     background-size: cover;
     background-color: hsl(0, 100%, 74%);
 }
@@ -112,7 +112,7 @@ main{
 
 @media screen and (max-width: 568px) {
     body{
-        background: url('../bg-intro-mobile.png');
+        background: url('./bg-intro-mobile.png');
         background-size: cover;
         background-color: hsl(0, 100%, 74%);
     }
