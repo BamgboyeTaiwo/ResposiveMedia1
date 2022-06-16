@@ -1,0 +1,134 @@
+body{
+    background-image: url('../bg-intro-desktop.png');
+    background-size: cover;
+    background-color: hsl(0, 100%, 74%);
+}
+
+.one{
+    color: white;
+    width: 45%;
+    padding: 10px;
+    margin: auto 0;
+}
+.two{
+    width: 45%;
+}
+.top{
+    background-color: hsl(248, 32%, 49%);
+    margin-bottom: 15px;
+    border-radius: 5px;
+    padding: 2px 10px;
+    color: hsl(246, 25%, 77%);
+    overflow: hidden;
+    white-space: nowrap;
+    text-align: center;
+
+} 
+.top strong{
+    color: white;
+}
+.top .p{
+    display: flex;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+.form{
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 20px;
+    background-color: white ;
+    border-radius: 5px;
+    width: 90%;
+    box-shadow: 3px 2px 10px 1px hsl(0, 28%, 43%) ;
+}
+input{
+    padding: 10px 15px;
+    position: relative;
+    width: 90%;
+    border-radius: 5px;
+    border: 1px solid hsl(246, 25%, 77%);
+    margin: 0 auto;
+    font-weight: 600;
+    color: hsl(246, 35%, 72%);
+}
+input:hover, input:active , input:focus{
+    border: 1px solid hsl(246, 25%, 77%) !important;
+    outline: none;
+}
+.ln,.ea,.pwd{
+    margin-top: 10px;
+}
+
+.btn{
+
+}
+
+button{
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 5px;
+    background-color:hsl(154, 59%, 51%);
+    border: 1px solid hsl(154, 59%, 51%);
+    color: white;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.terms{
+    font-size: smaller;
+    color: hsl(246, 25%, 77%);
+}
+.terms span{
+    color: hsl(0, 100%, 74%);
+    font-weight: bold;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    /* background-color: aqua; */
+    padding-right: 5%;
+    padding-left: 5%;
+    margin: 0 auto ;
+    height: fit-content;
+    margin-top: 15%;
+    margin-bottom: 15%;
+}
+
+/* @media (max-device-width: 280px) and (max-device-height: 567px) { 
+    .main{
+        display: block !important;
+    }
+} */
+
+/* @media (min-width: 280px) and (max-width: 567px) {
+    .main{
+        display: block !important;
+    }
+    
+} */
+
+@media screen and (max-width: 568px) {
+    body{
+        background: url('../bg-intro-mobile.png');
+        background-size: cover;
+        background-color: hsl(0, 100%, 74%);
+    }
+
+    main{
+        display: block !important;
+        flex-direction: column !important;
+        width: 80%;
+    }
+    .one{
+        width: 100%;
+    }
+    .two{
+        width: 100%;
+    }
+    input{
+        width: 90%;
+    }
+  } 
